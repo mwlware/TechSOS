@@ -14,6 +14,8 @@ import image7 from './assets/img/7.jpeg'
 import image8 from './assets/img/9.jpeg'
 import image9 from './assets/img/10.jpeg'
 import image10 from './assets/img/11.jpg'
+import image12 from './assets/img/12.jpg'
+import image13 from './assets/img/13.png'
 
 export default function Component() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -28,9 +30,10 @@ export default function Component() {
     { id: 7, name: 'Tablets', price: 199.99, rating: 4.5, image: image7 },
     { id: 8, name: 'Gaming Laptop', price: 89.99, rating: 4.2, image: image8 },
     { id: 9, name: 'Teclados', price: 799.99, rating: 4.8, image: image9 },
-    { id: 10, name: 'Teclados Gaming', price: 1299.99, rating: 4.6, image: image10 },
+    { id: 10, name: 'Data Center', price: 1299.99, rating: 4.6, image: image10 },
+    { id: 11, name: 'Licencias de software', price: 799.99, rating: 4.8, image: image12 }, // Usando image12
+    { id: 12, name: 'Programación de bases de datos', price: 1299.99, rating: 4.6, image: image13 }, // Usando image13
   ]
-
   return (
     <div className="min-h-screen bg-[#0A192F] text-white">
       <header className="bg-[#0A192F]/90 backdrop-blur-md border-b border-[#40E0D0]/20 sticky top-0 z-50">
